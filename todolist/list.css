@@ -1,0 +1,85 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: sans-serif;
+}
+
+.input-block {
+  background-color: rgba(125, 125, 125, 0.3);
+  text-align: center;
+  padding: 2rem;
+  margin: 5% 5% 5% 5%;
+}
+
+.input-block #heading {
+  font-size: 40px;
+}
+
+.input-block h3 {
+  font-size: 22px;
+}
+
+#input-field {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#addbtn {
+  padding: 10px;
+  width: 25%;
+  background: rgba(240, 5, 5, 0.6);
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+#addbtn:hover {
+  background-color: rgba(125, 125, 125, 0.3);
+  color: rgb(0, 0, 0);
+}
+
+#list {
+  position: relative;
+  text-align: left;
+  font-size: 20px;
+  padding: 2rem;
+}
+
+#list ul {
+  white-space: nowrap;
+}
+
+#list li {
+  position: relative;
+  padding: 1em;
+  text-decoration: none;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+#list li.checked {
+  text-decoration: line-through;
+}
+
+#list li:nth-child(even) {
+  background-color: rgb(230, 230, 230);
+}
+
+#list li span {
+  position: absolute;
+  right: 0%;
+  bottom: 0.5%;
+  padding: 1em;
+  float: right;
+}
+
+#list li :hover {
+  background-color: rgba(240, 5, 5, 0.6);
+}
